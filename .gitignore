@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+**/coverage/
+
+# Env
+.env
+.env.local
+*.local
+
+# Logs / OS / IDE
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Nest / Vite
+api/dist/
+web/dist/
